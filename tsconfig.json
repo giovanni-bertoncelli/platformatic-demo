@@ -7,10 +7,7 @@
     "pretty": true,
     "noEmitOnError": true,
     "incremental": true,
-    "outDir": "dist",
-    "types": [
-      "./plugins"
-    ]
+    "outDir": "dist"
   },
   "watchOptions": {
     "watchFile": "fixedPollingInterval",
