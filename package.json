@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "start": "platformatic start",
+    "dev": "platformatic start --watch",
+    "clean": "rm -fr ./dist",
+    "build": "platformatic compile",
+    "migrate": "platformatic db migrations apply"
+  },
+  "devDependencies": {
+    "fastify": "^4.22.2",
+    "typescript": "~5.2.0"
+  },
+  "dependencies": {
+    "@fastify/autoload": "^5.7.1",
+    "@fastify/env": "^4.2.0",
+    "@fastify/oauth2": "^7.4.0",
+    "@platformatic/db": "^0.40.0",
+    "fastify-plugin": "^4.5.1",
+    "fluent-json-schema": "^4.1.1",
+    "platformatic": "^0.40.0"
+  },
+  "engines": {
+    "node": "^18.8.0"
+  }
+}
